@@ -21,8 +21,7 @@ export default function MenuDetails() {
   const [count, setCount] = useState(0);
   const [details, setDetails] = useState<any>();
   const params = useParams();
-  const id = params.id;
-
+  const id = params.id as string;
   console.log(MenuCardMocks);
 
   useEffect(() => {
