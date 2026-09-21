@@ -31,7 +31,7 @@ export default function Order() {
               </tr>
             </thead>
             <tbody>
-              {MenuCardMocks.map((m) => (
+              {MenuCardMocks.map((m: any) => (
                 <tr key={m.id}>
                   <td className="flex items-center gap-2 p-2">
                     <img
